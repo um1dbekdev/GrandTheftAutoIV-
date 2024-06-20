@@ -4,6 +4,6 @@ import './index.css'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <h1 className='font-[900] text-[red] '>dhfkslaf</h1>
+    <h1 className='font-[900] text-[red] '>salom bu saytnio indi boshladik</h1>
   </React.StrictMode>,
 )
