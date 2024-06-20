@@ -1,9 +1,10 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import './index.css'
+import HdSc from './hdsc'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <h1 className='font-[900] text-[red] '>salom bu saytnio indi boshladiq</h1>
+    <HdSc/>
   </React.StrictMode>,
 )
