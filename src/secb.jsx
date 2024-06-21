@@ -4,7 +4,7 @@ import Card from "./card"
 
 const Scbt = () =>{
     return(
-       <div className="flex justify-center bg-[black]">
+       <div className="flex justify-center bg-[black] pb-[50px]">
          <div className="scbtn grid grid-cols-3 gap-10 mt-[60px]  ">
             <Card  img={"https://vkplay.ru/hotbox/content_files/news/2019/11/13/f06f1d472c8e4c34b7720bcb3d2af597.jpg"} 
             title={'Arthur Morgan'}
