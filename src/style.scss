@@ -1,0 +1,19 @@
+.pule{
+    animation: pule ;
+    animation-duration: 9s;
+    animation-delay: .5s;
+}
+
+
+@keyframes pule {
+
+    0%{
+        position: relative;
+        left: 0px;
+    }
+
+    100%{
+        position: relative;
+        left: 1900px;
+    }
+}

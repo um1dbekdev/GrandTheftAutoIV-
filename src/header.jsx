@@ -1,14 +1,17 @@
-
+import './style.scss' 
 
 const Header = () =>{
     return(
   
      
-                    <header className="header  flex  fixed w-[100%]    items-center  justify-between pl-[30px] pr-[30px] bg-[#0000007a] pt-[20px] pb-[20px] ">
+                    <header className="header  flex  fixed w-[100%]    items-center  justify-between pl-[30px] pr-[30px] bg-[#000000ae] backdrop-blur-[3px] pt-[20px] pb-[20px] ">
             <div className="left  header flex  items-center justify-between w-[740px] ">
             <img src="https://vgboxart.com/resources/logo/15936_red-dead-redemption-2-prev.png"
-              alt="eror 404 sorry" className="w-[120px] " />
-                 <nav className="text-[white] gap-[24px] flex  p-[15px] flex items-center"    >
+              alt="eror 404 sorry" className="w-[120px]  " />
+              <div className="pule relative bottom-[17px] right-[399px] ">
+                    <img className='w-[24px]'  src="https://gunfan.ru/upload/resize_cache/webp/upload/iblock/ccc/ewqs849rjue76flnfsc2mfhmer7i9m8g.webp" alt="eror 403 sorry" />
+              </div>
+                 <nav className="text-[white] gap-[24px] flex  p-[15px]  items-center"    >
                     
                     <a href="#" >Overview</a>
                
