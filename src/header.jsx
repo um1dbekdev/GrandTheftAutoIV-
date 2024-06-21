@@ -2,23 +2,46 @@
 
 const Header = () =>{
     return(
-        <div className="cantainer max-w-[1660px] m-[auto]  ">
-        <header className="header  flex   pt-[40px]  items-center  justify-between">
-            <div className="left  header flex  items-center justify-between w-[900px]">
-            <img src="public\logo.webp" alt="eror 404 sorry" className="w-[400px]" />
-                 <nav className="text-[white] gap-[24px] flex"  >
-                    <a href="#">Об игре</a>
-                    <a href="#">O нас</a>
-                    <a href="#">Новости</a>
-                    <a href="#">Читы в игры</a>
-                    <a href="#">купить</a>
+  
+     
+                    <header className="header  flex  fixed w-[100%]    items-center  justify-between pl-[30px] pr-[30px] bg-[#0000007a] pt-[20px] pb-[20px] ">
+            <div className="left  header flex  items-center justify-between w-[740px] ">
+            <img src="https://vgboxart.com/resources/logo/15936_red-dead-redemption-2-prev.png"
+              alt="eror 404 sorry" className="w-[120px] " />
+                 <nav className="text-[white] gap-[24px] flex  p-[15px] flex items-center"    >
+                    
+                    <a href="#" >Overview</a>
+               
+                    <select className="bg-[transparent] outline-none cursor-pointer ">
+                        <option value="" >Explore</option>
+                        <option value="" >Progress</option>
+                        <option value="" >Media</option>
+                        <option value="" >Overview</option>
+                    </select>
+                    <select className="bg-[transparent] outline-none  cursor-pointer">
+                        <option value="" >Progress</option>
+                        <option value="" >Explore</option>
+                        <option value="" >Explore</option>
+                        <option value="" >Explore</option>
+                    </select>
+                    <select className="bg-[transparent] outline-none  cursor-pointer w-[70px] ">
+                        <option value="" >Media</option>
+                        <option value="" >Progress</option>
+                        <option value="" >Media</option>
+                        <option value="" >Overview</option>
+                    </select>
+                    <a href="#">Online</a> 
+                    <a href="#">Catalogue</a>
                  </nav>
             </div>
-            <div className="right ">
-                <input type="search" className="w-[500px] h-[40px] bg-[#ffffff94] rounded-[4px] outline-none pr-[10px] pl-[10px]"/>
+            <div className="right flex items-center gap-[20px] ">
+            <button className="border-white border-solid border-[1px] p-[6px] w-[100px] rounded-[5px] text-white active:scale-[.9]  transition-all duration-300 delay-50 ease-linear ">BUY NOW</button>
+            <img  className="w-[28px]" src="https://media-rockstargames-com.akamaized.net/mfe6/prod/__common/img/902006563577748c7d58ac9c2bf5e6df.svg" alt="eror 404 sorry" />
+            <img  className="w-[33px]" src="https://media-rockstargames-com.akamaized.net/mfe6/prod/__common/img/a29e26aa160e7be7e845708c335b3c39.svg" alt="eror 404 sorry" />
             </div>
         </header>
-        </div>
+
+
     )
 }
 
