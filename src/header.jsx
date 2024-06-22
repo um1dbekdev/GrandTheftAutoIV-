@@ -4,7 +4,7 @@ const Header = () =>{
     return(
   
      
-                    <header style={{boxShadow:'0px 0px 20px 20px #00000099'}}   className="header  text-[#00000099] flex  fixed w-[100%]    items-center  justify-between pl-[30px] pr-[30px] bg-[#000000ae] backdrop-blur-[3px] pt-[20px] pb-[20px] ">
+                    <header style={{boxShadow:'0px 0px 20px 20px #00000099'}}   className="header  text-[#00000099] flex  fixed z-[2] w-[100%]    items-center  justify-between pl-[30px] pr-[30px] bg-[#000000ae] backdrop-blur-[3px] pt-[20px] pb-[20px] ">
             <div className="left  header flex  items-center justify-between w-[740px] ">
             <img src="https://vgboxart.com/resources/logo/15936_red-dead-redemption-2-prev.png"
               alt="eror 404 sorry" className="w-[120px]  " />
